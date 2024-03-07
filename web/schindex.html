@@ -1,1 +1,457 @@
+<html>
+    <head>
+        <title>VishyScholarshipFoundation</title>
+        <link rel="icon" href="https://vishalloki.github.io/VSF/logo/logo.jpg">
+        <style>
+            body
+            {
+                font-family:Arial, Helvetica, sans-serif;
+                margin:0;
+                padding:0;
+            }
+            .navbar
+            {
+                background-color: rgb(0, 173, 253);
+                overflow:hidden;
+            }
+            .navbar .logo a
+            {
+                display: flex;
+                margin:0;
+                padding-left: 150px;
+                color:white;
+                font-family:'Times New Roman', Times, serif;
+                font-style: italic;
+                font-size: 36px;
+                text-align: center;
+                text-decoration: solid;
+                float:left;
+            }            
+            .navbar ul
+            {
+                list-style-type: none ;
+                margin:0;
+                padding:0;
+                float:right;
+            }
+            .navbar li
+            {
+                float:left;
+                border-left: 1px solid white;
+            }
+            .navbar li a
+            {
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 12px 12px;
+                text-decoration:solid
+                ;
+            }
+            .navbar li a:hover
+            {
+                background-color: white;
+                color:rgb(0, 173, 253);
+            }
+            .pho
+            {
+                width:100%;
+                height:290px;
+                padding-bottom: 5px;
+                background: url(https://vishalloki.github.io/VSF/images/1.jpg);
+                background-size:cover;
+                animation: slide 28s infinite;
+            }
+            @keyframes slide
+            {
+                25%
+                {
+                    background: url(https://vishalloki.github.io/VSF/images/2.jpg);
+                }
+                50%
+                {
+                    background: url(https://vishalloki.github.io/VSF/images/3.jpg);
+                }
+                75%
+                {
+                    background: url(https://vishalloki.github.io/VSF/images/4.jpg);
+                }
+                100%
+                {
+                    background: url(https://vishalloki.github.io/VSF/images/1.jpg);
+                }
+            }
+            .merge
+            {
+                display:flex;
+                justify-content: center;
+                padding-top:50px;
+            }
+            .merge .text_m
+            {
+                padding-top:40px;
+                padding-left: 70px;
+            }
+            .merge .text_m h2
+            {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 40px;
+                color:rgb(0, 173, 253);
+                font-style: italic;
+            }
+            .merge .text_m p
+            {
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 200;
+            }
+            .merge img
+            {
+                float:right;
+                padding-right:40px;
+                width:500px;
+                height:400px;
+            }
+            .vision
+            {
+                background-color: rgb(0, 173, 253);
+                overflow:hidden;
+            }
+            .vision h2
+            {
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .vision p
+            {
+                color: white;
+                font-size:12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .founder
+            {
+                display:flex;
+                justify-content: center;
+                padding-top:80px;
+                padding-left:60px;
+                padding-bottom: 50px;
+            }
+            .founder .text_f
+            {
+                float:right;
+                padding-right: 70px;
+                padding-left:90px;
+            }
+            .founder .text_f h2
+            {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 40px;
+                color:rgb(0, 173, 253);
+                font-style: italic;
+            }
+            .founder .text_f .text_fa b
+            {
+                font-size: 25px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 200;
+            }
+            .founder .text_f .text_fb p
+            {
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 200;
+            }
+            .founder img
+            {
+                width:620px;
+                height:500px;
+                border:5px solid rgb(0, 173, 253);
+                border-top-left-radius: 45px;
+                border-bottom-right-radius: 45px;
+                box-shadow: 20px 20px 20px rgb(156, 210, 235);
+            }
+            .phot
+            {
+                width: 600px;
+                height: 337px;
+                background: url(https://vishalloki.github.io/VSF/images/g1.jpg);
+                background-size: cover;
+                border: 3px solid rgb(0, 173, 253);
+                animation: slider 20s infinite;
+            }
+            @keyframes slider
+            {
+                25%
+                {
+                    background: url(https://vishalloki.github.io/VSF/images/g4.jpg);
+                }
+                50%
+                {
+                    background: url(https://vishalloki.github.io/VSF/images/g2.jpg);
+                }
+                75%
+                {
+                    background: url(https://vishalloki.github.io/VSF/images/g3.jpg);
+                }
+                100%
+                {
+                    background: url(https://vishalloki.github.io/VSF/images/g1.jpg);
+                }
+            }
+            .sim
+            {
+                padding-top: 20px;
+            }
+            .sim ul
+            {
+                padding-left: 170px;
+            }
+            .sim li
+            {
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 200;
+            }
+            .sim h2
+            {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 40px;
+                color:rgb(0, 173, 253);
+                font-style: italic;
+            }
+            .sim h4
+            {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 25px;
+                color:rgb(0, 173, 253);
+                font-style: italic;
+            }
+            .lef
+            {
+                display:flex;
+                justify-content: center;
+                padding-top:80px;
+                padding-left:200px;
+                padding-bottom: 50px;
+            }
+            .lef .text_l
+            {
+                float:right;
+                padding-right: 200px;
+                padding-left:90px;
+            }
+            .lef .text_l b
+            {
+                font-size: 25px;
+                font-family:'Times New Roman', Times, serif;
+                font-weight: 200;
+                font-style:italic;
+                color:rgb(0, 173, 253);
+            }
+            .lef .text_l p
+            {
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 200;
+            }
+            .lef img
+            {
+                width:250px;
+                height:250px;
+                border-top:4px solid rgb(0, 173, 253);
+                border-left:4px solid rgb(0, 173, 253);
+            }
+            .rig
+            {
+                display:flex;
+                justify-content: center;
+                padding-top:80px;
+                padding-right:200px;
+                padding-bottom: 50px;
+            }
+            .rig .text_l
+            {
+                padding-left: 200px;
+                padding-right:90px;
+            }
+            .rig .text_l b
+            {
+                font-size: 25px;
+                font-family:'Times New Roman', Times, serif;
+                font-weight: 200;
+                font-style:italic;
+                color:rgb(0, 173, 253);
+            }
+            .rig .text_l p
+            {
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 200;
+            }
+            .rig img
+            {
+                float: right;
+                width:250px;
+                height:250px;
+                border-top:4px solid rgb(0, 173, 253);
+                border-right:4px solid rgb(0, 173, 253);
+            }
+            .cno
+            {
+                display: flex;
+                justify-content: center;
+                padding-top: 0px;
+                padding-bottom: 50px;
+                padding-left:800px;
+                padding-right:300px;
+            }
+            .cno .wno
+            {
+                padding-left: 500px;
+            }
+            .cno .ilo
+            {
+                float:right;
+                padding-left:80px;
+            }
+            .cno .llo
+            {
+                float:right;
+                padding-left:80px;
+                padding-right:500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo"><a href="https://vishalloki.github.io/VSF/web/schindex.html">Vishy Scholarship Foundation</a></div>
+            <ul>
+                <li><a href="https://vishalloki.github.io/VSF/web/schindex.html">HOME</a></li>
+                <li><a href="https://vishalloki.github.io/VSF/web/schabout.html">ABOUT</a></li>
+                <li><a href="https://vishalloki.github.io/VSF/web/schcontact.html">CONTACT US</a></li>
+                <li><a href="https://vishalloki.github.io/VSF/web/schlogin.html">LOGIN</a></li>
+                <li><a href="https://vishalloki.github.io/VSF/web/schsign.html">SIGNUP</a></li>
+            </ul>
+        </div><br><br>
+        <div class="pho"></div>
+        <div class="merge">
+            <div class="text_m">
+                <h2>Welcome to VS Foundation</h2>
+                <p>India is on the cusp of change. The country is marching into the 21st century, rightly proud of all its advancements in science and technology, its spectacular improvements in infrastructure and IT. And yet, we're weighed down by devastating inequalities, by a huge population that remains untouched by well- meaning acts like the Right to Education, and a large gender inequality. At VS foundation, we want to make a difference in the lives of the millions who are not yet touched by education.</p>
+            </div>
+            <img src="https://vishalloki.github.io/VSF/images/6.jpg" class="photo" alt="ph">
+        </div><br>
+        <center>
+        <div class="vision">
+            <h2>Vision</h2>
+            <p>To bring about a significant positive change in the socio-economic status of the rural society by<br>offering quality education to the deserving individual.</p>
+        </div>
+        </center>
+        <div class="founder">
+            <img src="https://vishalloki.github.io/VSF/images/rdj.jpg" class="photo" alt="founder">
+            <div class="text_f">
+                <h2>Founders Message</h2>
+                <div class="text_fa">
+                    <b>RDJ, Founder, Vishy Scholarship Foundation.</b>
+                </div>
+                <div class="text_fb">
+                    <p>"I strongly believe that we can eliminate social evils and uplift the society only through education. Through VS foundation, we reach out to deserving students from most backward parts of the country and provide them with opportunities to not only complete their education, but also transform into confident, competent and socially responsible individuals."</p>
+                    <p>"Education has got the power to make a human civilized and face the challenges of life. Education is an answer to the economic imbalance of an individual, religion and caste divide that prevails in the society and could be an important factor that blocks the above being transferred to the next generation."</p>
+                    <p>"I am confident that the beneficiaries of VS foundation, whom we nurture today, will soon become the much needed catalysts to bring about the positive transformation in their families, communities and society at large."</p>
+                </div>
+            </div>
+        </div>
+        <center>
+        <div class="vision">
+            <h2>VSF Group Meetings</h2>
+            <p>The meetings were conducted by the admin of the fouundation</p>
+        </div><br><br>
+        <div class="sim">
+            <h2>Group Meetings</h2>
+        </div><br>
+        <div class="phot"></div>
+        </center><br>
+        <div class="sim">
+            <ul>
+                <li>Alone, we can do so little; together, we can do so much.</li><br>
+                <li>Great teamwork is the only way we create the breakthroughs that define our careers.</li><br>
+                <li>In union there is strength.</li><br>
+                <li>No individual can win a game by himself.</li><br>
+                <li>A team is more than a collection of people. It is a process of give and take.</li><br>
+                <li>Teamwork is the secret that makes common people achieve uncommon results</li><br>
+            </ul>
+        </div>
+        <br><br><br>
+        <center>
+        <div class="vision">
+            <h2>Our Scholars</h2>
+            <p>The respective following scholars are placed in reputed companies</p>
+        </div><br><br>
+        <div class="sim">
+            <h2>Our Scholars</h2>
+        </div>
+        </center>
+        <div class="lef">
+            <img src="https://vishalloki.github.io/VSF/images/nat.jpg" class="photo" alt="vish">
+            <div class="text_l">
+                <b>Scarlett Johnson,Scholar</b>
+                <p>Data Analysis Manager in an IT organization in India</p>
+                <p>VSF showed me a great path towards my career. With the learnings, I am able to support myself financially. Strong technical knowledge, professional growth and behavioral development amongst so many because of VSF that I have in my life which follows me forever.</p>
+            </div>
+        </div><br>
+        <div class="rig">
+            <div class="text_l">
+                <b>Chris Evans,Scholar</b>
+                <p>Advanced Application Engineer at a Multinational Technology Company in India</p>
+                <p>VSF has helped me grow in various aspects. It has helped not only financially but also helped build strong personality.  The Internship Program and trainings opportunities given by VSF really
 
+                    trained me well, increased my technical and interpersonal skills. These have helped me to stand</p>
+            </div>
+            <img src="https://vishalloki.github.io/VSF/images/ca.jpg" class="photo" alt="har">
+        </div><br>
+        <div class="lef">
+            <img src="https://vishalloki.github.io/VSF/images/wanda.jpg" class="photo" alt="paduu">
+            <div class="text_l">
+                <b>Elizabeth Olsen,Scholar</b>
+                <p>Specialist Engineer at World's Leading Mobile manufacturers in India</p>
+                <p>VSF offered a lot of help while I was doing my studies - financially and also internships which enlightened my knowledge in the industries and technology. The Mechatronics Certification Program increased the scope during my Placement as a fresher. They imparted not only technical skills but also provided soft skills workshops which helped to groom my personalities. I am happy to be a part of VSF</p>
+            </div>
+        </div><br>
+        <div class="rig">
+            <div class="text_l">
+                <b>Cillian Murphy,Scholar</b>
+                <p>PGDIE student at NATIONAL INSTITUTE OF INDUSTRIAL ENGINEERING (NITIE)</p>
+                <p>VSF has not only provided me with the financial support during my undergrad years, but also helped me develop my technical and interpersonal skills. I am presently pursuing my post graduate studies at National Institute of Industrial Engineering, Mumbai. The internship project and VSF's soft skills program helped me stand out among my peers, which helped me to get shortlisted for better companies and to land a summer internship at one of the best FMCG firms.</p>
+            </div>
+            <img src="https://vishalloki.github.io/VSF/images/cil.jpg" class="photo" alt="visw">
+        </div><br>
+        <div class="lef">
+            <img src="https://vishalloki.github.io/VSF/images/thor.jpg" class="photo" alt="sak">
+            <div class="text_l">
+                <b>Chris Hemsworth,Scholar</b>
+                <p>Grade A1 Officer at one of the biggest petroleum PSU in India.</p>
+                <p>My journey with VSF has been fantastic and I am incredibly grateful for the opportunity. It's something that I'm proud of and I talk to friends about. I love the fact that we get to interact with people from all over India where we find a group which stays for lifetime. VSF started from my first year of Mechanical Engineering and continued for all four years. The trainings, mechatronics workshop and internships are the extraordinary segments of VSF.</p>
+            </div>
+        </div><br>
+        <center>
+            <div class="vision">
+                <h2>Contact Us</h2>
+                <p>Follow us on social media to know the upcoming scholarships</p>
+            </div>
+            <div class="sim">
+                <h4>Contact Us</h4>
+            </div>
+        </center>
+        <div class="cno">
+        <div class="wlo">
+            <a href="http://wa.me/918124390345"  target="_blank"><img src="https://vishalloki.github.io/VSF/images/whatsapp.png" class="logo" alt="whatsapp"></a>
+        </div>
+        <div class="ilo">
+            <a href="https://www.instagram.com/loki_var_007/" target="_blank"><img src="https://vishalloki.github.io/VSF/images/instagram.png" class="logo" alt="instagram">
+        </div>
+        <div class="llo">
+            <a href="https://www.linkedin.com/in/vishal-n-b72603252" target="_blank"><img src="https://vishalloki.github.io/VSF/images/linkedin.png" class="logo" alt="linkedin">
+        </div>
+        </div>
+    </body>
+</html>
